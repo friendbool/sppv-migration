@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPPersonalViewMigrate", "SPPersonalViewMigrate\SPPersonalViewMigrate.csproj", "{C5BF0CEE-D516-46BE-81E0-A3C154C102C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadXml", "ReadXml\ReadXml.csproj", "{DC5CAE42-6319-4EA3-9C3F-A988F721E65C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{C5BF0CEE-D516-46BE-81E0-A3C154C102C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5BF0CEE-D516-46BE-81E0-A3C154C102C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5BF0CEE-D516-46BE-81E0-A3C154C102C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5CAE42-6319-4EA3-9C3F-A988F721E65C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5CAE42-6319-4EA3-9C3F-A988F721E65C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5CAE42-6319-4EA3-9C3F-A988F721E65C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5CAE42-6319-4EA3-9C3F-A988F721E65C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F7896EC2-EAAA-4E9A-B78A-7DB98E4ED8E8}
 	EndGlobalSection
 EndGlobal
